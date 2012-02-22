@@ -1,0 +1,14 @@
+################################################################################This script can be used for general purpose to find out 
+#the number of users on system and to the total number of
+#logged onto the system and total number of processes are
+#there currently
+################################################################################
+
+echo -n "Number of possible users on system:"
+cat /etc/passwd |grep /bin/bash | wc -l
+echo
+echo -n "Number of users logged onto system:"
+who | wc -l
+echo
+echo -n "Total number of process running:"
+ps -e | wc -l
