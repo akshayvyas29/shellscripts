@@ -1,0 +1,10 @@
+These are general linux shell scripts used to automate the work
+to make them executable:
+chmod +x scriptname<press enter>
+To make then work all time paste it into 
+/usr/bin
+(it depends on your operating system ) so to 
+find the path just type
+echo $PATH
+
+
