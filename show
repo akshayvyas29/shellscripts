@@ -1,0 +1,14 @@
+
+
+echo The current Directory is: #prints the line
+pwd #shows location
+echo #if you type simply echo it will show you a blank line to put the space between them i used it 
+echo The current Date and Time is: #prints the line
+date #shows date
+echo
+echo The contents of directory are: #prints line
+ls -ca #shows contents
+echo 
+echo -n "please enter your name:"
+read name #reads contenet
+echo Thanks $name have a nice day
